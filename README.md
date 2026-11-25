@@ -12,7 +12,7 @@ The world in one day: Wednesday 25 November 2026, 27 stories across 7 regions, d
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-`main.py` copies `entry.png` to the output dir. The image itself is drawn by `render_news.py` (Python stdlib + Pillow at build time only) from public news digests of 25 November 2026 — see `SOURCES.md`.
+`main.py` copies `entry.png` to the output dir. The image itself is drawn by `render_news.py` (Python stdlib + Pillow at build time only) from public news digests of 25 November 2026 — see `SOURCES.md`. The renderer was written fresh for this entry: masthead, lead story, a 3×9 grid of dated stories across 7 regions, and a footer strip.
 
 ---
 
